@@ -1,0 +1,36 @@
+<!-- 
+radio გამოიყენება რამოდენიმე არჩევნიდან ერთერთის არჩევისთვის
+name ატრიბუტის იმისთვისაა საჭირო რომ ერთნეაირი სახელიანი ინფუტები ერთ ჯგუფად ჩაითვალოს
+placeholder არის ტექსტი რომელიც ჩანს რამოდენიმე სახის ინპუტების შესაყვან ველში, მაგალიტათ იმეილშიდა ტექსტში
+required არის ატრიბუტი რომელიც აიძულებს რომ მომხმარებელმა ეგ ინფუთი შემოიყვანოს
+value არის ეგ ატრიბუტის მნიშვნელობა იგივე ღირებულება
+-->
+<html>
+    <body>
+        <form>
+            <label for="text">text:</label>
+            <input placeholder="yes" id="text" type="text"><br>
+
+            <input type="radio" name="gender" id="male">
+            <label for="male">Male</label>
+            <input type="radio" name="gender" id="female">
+            <label for="female">female</label><br>
+
+            <label for="yes">yes</label>
+            <input placeholder="hi" id="yes" type="email"><br>
+            
+            <label for="password">super password</label>        
+            <input id="password" type="password"><br>
+
+
+            <input type="checkbox">checkboxomg<br>
+
+            <label for="num">numbeeeers</label>
+            <input id="num" type="number"><br>
+
+           
+            <input type="submit"><br>
+
+        </form>
+    </body>
+</html>
