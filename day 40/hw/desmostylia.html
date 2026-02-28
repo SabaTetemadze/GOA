@@ -1,0 +1,46 @@
+<!-- 
+css წესი არის: სელექტორი + დეკლარაცია
+p <--სელეტორი{
+  color: red; <--დეკლარაცია
+}
+-->
+
+<html>
+  <head>
+    <style>
+      p{
+        color: red;
+        text-align: center;
+      }
+      div p{
+        color: green;
+      }
+      .p{
+        color: blue;
+      }
+      #ten{
+        color: black;
+      }
+
+    </style>
+  </head>
+  <body>
+
+    <p>one</p>
+    <p>two</p>
+    <p>three</p>
+
+    
+    <div>
+      <p>four</p>
+      <p>five</p>
+      <p>six</p>
+    </div>
+
+    <p class="p">seven</p>
+    <p class="p">eight</p>
+    <p class="p">nine</p>
+
+    <p id="ten">ten</p>
+  </body>
+</html>

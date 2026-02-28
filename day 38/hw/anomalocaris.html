@@ -1,0 +1,45 @@
+<!-- 
+inline იწერება პირდაპირ თეგებში და ცუდი პრაქტიკაა რადგან პრიველ რიგშ ერთი და იგივე კოდის გამეორება დაგვჭირდება, და მეორედ ლამაზიც არაა
+internal იწერება ცალკე style თეგში იწერება და კარგი პრაქტიკაა
+external იწერება ცალკე ფაილში, ჩემი აზრით საუკეთესო პრაქტიკაა
+
+selector-ს მეშვეობით შეგვეძლია რამოდენიმე თეგი ერთად გავსტილოთ, მაგალითად ყველა p იყოს წითელი, ასევე შეგვიძლია შევირჩიოთ კლასი ან აიდი
+-->
+
+
+<html>
+  <head>
+    <style>
+      p {
+        text-align: center;
+        color: darkred;
+        font-weight: bolder;
+      }
+      #first{
+        font-size: larger;
+        border: solid grey;
+        background-color: darkgrey;
+        border-radius: 15px;
+      }
+      #second{
+        font-size: smaller ;
+        border: solid green;
+        background-color: darkgreen;
+        border-radius: 15px;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="first">
+      <p>hellololololool</p>
+      <p>hiiiiiii</p>
+      <p>wspppppp</p>
+    </div>
+
+    <div id="second">
+      <p>aaaaaalalalaal</p>
+      <p>booooooooo</p>
+      <p>perm</p>
+    </div>
+  </body>
+</html>
