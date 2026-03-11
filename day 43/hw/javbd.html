@@ -1,0 +1,61 @@
+<!-- 
+rgb არის ფერის არჩევის ფორმატი, 3 მონაცემი აქვს (წითელი, მწვანე, ლურჯი) თითოეული 0-დან 255-ის ჩათვლით
+hex არის სხვანაირი ფორმატი, 6 სიმბოლო აქვს, პირველი ორი წითელი, შემდეგი ორი მწვანე და ბოლო 2 ლურჯი, ლიმბოლოებია 0-დან 9-ის ჩათვლით და A-დან f-ის ჩათვლით
+
+%-ი არის ზომის მონაცემი, იკავებ იმდენ ეკრანის პროცენტულ ზომას რამდენსაც ჩაწერ
+-->
+<html>
+  <head>
+    <style>
+      body{
+        text-align: center;
+        font-family: sans-serif;
+      }
+      h1{
+        color: rgb(255 0 0);
+        text-decoration-line: underline;
+        text-decoration-color: rgb(123, 0, 0);
+        text-decoration-style:wavy ;
+        text-decoration-thickness:2px ;
+      }
+      p{
+        font-size: 400%;
+        font-weight: bolder;
+        margin: 0;
+      }
+      #red{
+        background-color: rgb(255 0 0);
+      }
+      #orange{
+        background-color: rgb(255, 165, 0);
+      }
+      #yellow{
+        background-color: rgb(255 255 0);
+      }
+      #green{
+        background-color: rgb(0 255 0);
+      }
+      #blue{
+        background-color: rgb(0 0 255);
+      }
+      #indigo{
+        background-color: rgb(75, 0, 130);
+      }
+      #violet{
+        background-color: rgb(238, 130, 238);
+      }
+    </style>
+  </head>
+  <body>
+    <h1 id="h1">RAINBOW</h1>
+    <p id="red">RED</p>
+    <p id="orange">ORANGE</p>
+    <p id="yellow">YELLOW</p>
+    <p id="green">GREEN</p>
+    <p id="blue">BLUE</p>
+    <p id="indigo">INDIGO</p>
+    <p id="violet">VIOLET</p>
+
+
+  </body>
+</html>
