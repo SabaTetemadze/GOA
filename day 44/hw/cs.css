@@ -3,3 +3,20 @@ h1{
   font-family:"Bungee", cursive;
   font-weight: 400;
 }
+button{
+  font-size: larger;
+  background-color: green;
+  color: yellow;
+  border-width: 0;
+  border-radius: 5px;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+/* იმპორტი არის ახალი ფონტის შემოტანა ფაილში რომელიც დეფაულტად არ არის */
+/* 
+ეს არის ლინკის ყველა მდგომარეობა:
+:link - ლინკის დეფაულტი
+:hover - როდესაც მაუსი არის მასზე
+:active - როდესაც მაუსით აკლიკავთ
+:visited - როდესაც შემდეგი ლინკზე უკვე ნამყოფი ხართ
+*/
