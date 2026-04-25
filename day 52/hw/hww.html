@@ -1,0 +1,64 @@
+<html>
+  <head>
+    <style>
+      #bd{
+        display: flex;
+        flex-direction: column;
+        height: 440px;
+      }
+      .row{
+        display: flex;
+        width: 450px;
+        height: 220px;
+      }
+      .num{
+        background-color: #ff6347;
+        border-radius: 5px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      #one{
+        height: 210px;
+        aspect-ratio: 1/1;
+      }
+      #group{
+        display: flex;
+        flex-wrap: wrap;
+      }
+      #group .num{
+        height: 100px;
+        aspect-ratio: 1/1;
+        margin: 10px;
+        margin-top: 0;
+      }
+      h1{
+        font-family: sans-serif;
+        text-align: center;
+        color: white  ;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="bd">
+      <div class="row">
+        <div id="one" class="num"><h1>1</h1></div>
+        <div id="group">
+          <div class="num"><h1>2</h1></div>
+          <div class="num"><h1>3</h1></div>
+          <div class="num"><h1>4</h1></div>
+          <div class="num"><h1>5</h1></div>
+        </div>
+      </div>
+      <div class="row">
+        <div id="group">
+          <div class="num"><h1>2</h1></div>
+          <div class="num"><h1>3</h1></div>
+          <div class="num"><h1>4</h1></div>
+          <div class="num"><h1>5</h1></div>
+        </div>
+        <div id="one" class="num"><h1>1</h1></div>
+      </div>
+    </div>
+  </body>
+</html>

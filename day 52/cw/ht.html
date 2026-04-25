@@ -1,0 +1,69 @@
+<html>
+  <head>
+    <style>
+      body{
+        display: flex;
+        justify-content: center;
+        position: relative;
+        top: 50px;
+      }
+      #body{
+        display: flex;
+        flex-direction: column;
+        width: 600px;
+        height: 360px;
+        border: solid black 3px;
+        border-radius: 20px;
+        padding: 20px;
+      }
+      h1{
+        font-family: sans-serif;
+        color: white;
+        text-align: center;
+      }
+      .letter{
+        background-color: #fea07a;
+        border-radius: 10px;
+        height: 100px;
+        margin: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center ;
+      }
+      .row{
+        display: flex;
+      }
+      #a{
+        width: 100%;
+      }
+      #b{
+        width: 33.33%;
+      }
+      #c{
+        width: 66.66%;
+      }
+      #d{
+        width: 66.66%;
+      }
+      #e{
+        width: 33.33%;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div id="body">
+      <div class="row">
+        <div class="letter" id="a"><h1>A</h1></div>
+      </div>
+      <div class="row">
+        <div class="letter" id="b"><h1>B</h1></div>
+        <div class="letter" id="c"><h1>C</h1></div>
+      </div>
+      <div class="row">
+        <div class="letter" id="d"><h1>D</h1></div>
+        <div class="letter" id="E"><h1>E</h1></div>
+      </div>
+    </div>
+  </body>
+</html>
