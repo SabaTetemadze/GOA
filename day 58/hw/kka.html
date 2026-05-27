@@ -1,0 +1,70 @@
+<html>
+  <head>
+    <style>
+      body{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: black ;
+      }
+      #parent{
+        display: grid;
+        grid-template-columns: 20% 20% 12.5% 27.5% 20%;
+        grid-template-rows: repeat(6, 1fr);
+        height: 600px;
+        width: 1200px;
+        gap: 20px;
+      }
+      #on{
+        background-color: darkred;
+        grid-area: 1/1/4/2;
+      }
+      #tw{
+        background-color: white;
+        grid-area: 4/1/7/2;
+      }
+      #th{
+        background-color: cyan;
+        grid-area: 1/2/3/4;
+      }
+      #fo{
+        background-color: darkorange;
+        grid-area: 3/2/5/3;
+      }
+      #fi{
+        background-color: darkred;
+        grid-area: 5/2/7/4;
+      }
+      #si{
+        background-color: darkorange;
+        grid-area: 1/4/3/6;
+      }
+      #se{
+        background-color: white;
+        grid-area: 3/3/5/5;
+      }
+      #ei{
+        background-color: cyan;
+        grid-area: 5/4/7/5;
+      }
+      #ni{
+        background-color: darkred;
+        grid-area: 3/5/7/6;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div id="parent">
+      <div id="on"></div>
+      <div id="tw"></div>
+      <div id="th"></div>
+      <div id="fo"></div>
+      <div id="fi"></div>
+      <div id="si"></div>
+      <div id="se"></div>
+      <div id="ei"></div>
+      <div id="ni"></div>
+    </div>
+  </body>
+</html>

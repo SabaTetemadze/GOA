@@ -1,0 +1,56 @@
+<html>
+  <head>
+    <style>
+      body{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: hsl(212, 45%, 89%);
+      }
+      div{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 10px;
+        margin: 10px;
+      }
+      #all{
+        width: 640px ;
+        display:flex;
+        flex-wrap: wrap;
+      }
+      h1{
+        text-align: center;
+        color: white;
+        font-family: sans-serif;
+        font-weight: bolder;
+        -webkit-text-stroke: 1px black;
+      }
+      .image{
+        width: 300px;
+        aspect-ratio: 16/9;        
+        background-size: cover;
+      }
+      #Batumi{
+        background-image:url(./images/10-feiten-over-batumi-georgie.jpg );
+      }
+      #Tbilisi{
+        background-image: url(./images/exploring-tbilisi.webp);
+      }
+      #Paris{
+        background-image: url(./images/paris.jpg);
+      }
+      #Rome{
+        background-image: url(./images/images.jpg);
+      }
+    </style>
+  </head>
+  <body>
+    <div id="all">
+      <div class="image" id="Batumi"><h1>Batumi</h1></div>
+      <div class="image" id="Tbilisi"><h1>Tbilisi</h1></div>
+      <div class="image" id="Paris"><h1>Paris</h1></div>
+      <div class="image" id="Rome"><h1>Rome</h1></div>
+    </div>
+  </body>
+</html>
