@@ -1,0 +1,39 @@
+<!-- 
+transform translate - გადააადგილებს 
+transform scale - ადიდებს ან აპატარავებს 
+transform rotate - ატრიალებს 
+-->
+
+<html>
+  <head>
+    <style>
+      body{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      #one{
+        width:200px;
+        height: 200px;
+        background-color: lime;
+        transition-property: scale;
+        &:hover{
+          transform: translate(-50%,-60%) ;/*პიქსელები არ მეტევა */
+          scale: 2;
+          rotate: 40deg;
+          transform-origin: top right;
+          background-color: red;
+          transition-delay: 2s;
+          transition: transform 5s, scale 10s, background-color 10s;
+        }
+        
+
+      }
+    </style>
+  </head>
+  <body>
+    <div id="one">
+
+    </div>
+  </body>
+</html>
