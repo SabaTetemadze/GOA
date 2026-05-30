@@ -1,0 +1,187 @@
+<html>
+  <head>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Outfit:wght@100..900&family=Red+Hat+Text:ital,wght@0,300..700;1,300..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+      body{
+        background-color: hsl(13, 31%, 94%);
+      }
+      h1, h2, p{
+        font-family: Inter;
+      }
+      #dess{
+        font-weight: 700;
+        position: absolute;
+        top: 20px;
+      }
+      #m1{
+        height: 100%;
+        width: 90%;
+        margin: 90px;
+        display: grid;
+        grid-template-columns: 70% 30%;
+      }
+      #cart{
+        background-color: hsl(20, 50%, 98%);
+      }
+      #products{
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        height: 100%;
+        column-gap: 80px;
+        row-gap: 40px;
+      }
+      .prod{
+        width: 25%;
+        height: 30%;
+      }
+      .buy{
+        width: 60%;
+        height: 30px;
+        position: relative;
+        border: solid hsl(7, 20%, 60%) 1px;
+        border-radius: 30px;
+        left: 18%;
+        bottom: 15px;
+        background-color: hsl(13, 31%, 94%);
+      }
+      .buy p{
+        margin-top: 5px;
+        width: 100%;
+        text-align: center;
+      }
+      .buy img{
+        position: absolute;
+        height: 20px;
+        aspect-ratio: 1/1;
+        left: 7px;
+        top: 5px;
+      }
+      .imag{
+        width: 100%;
+        border-radius: 10px;
+      }
+      #cart{
+        position: relative;
+        bottom: 40px;
+        border-radius: 15px;
+      }
+      #ora{
+        color: hsl(14, 86%, 42%);
+        font-weight: 600;
+        margin-left:20px ;
+      }
+      #cart img{
+        width: 35%;
+        position: relative;
+        left: 32.5%;
+      }
+      #cart p{
+        text-align: center;
+      }
+      .gray{
+        color: gray;
+        margin-top:5px ;
+        margin-bottom: 7px;
+        font-size: 14px;
+        position: relative;
+      }
+      .name{
+        margin-top: 0;
+        font-weight: bold;
+        margin-bottom: 7px;
+      }
+      .price{
+        color: hsl(14, 86%, 42%);
+        margin-top: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="m1">
+      <h1 id="dess">Desserts</h1>
+      <div id="products">
+        <div  class="prod">
+          <img class="imag" src="./product-list-with-cart-main/assets/images/image-waffle-desktop.jpg">
+          <div class="buy"><img src="./product-list-with-cart-main/assets/images/icon-add-to-cart.svg"><p>Add To Cart</p></div>
+          <p class="gray">Waffle</p>
+          <p class="name">Waffle with Berries</p>
+          <p class="price">$6.50</p>
+        </div>
+
+        <div  class="prod">
+          <img class="imag" src="./product-list-with-cart-main/assets/images/image-creme-brulee-desktop.jpg">
+          <div class="buy"><img src="./product-list-with-cart-main/assets/images/icon-add-to-cart.svg"><p>Add To Cart</p></div>
+          <p class="gray">Crème Brûlée</p>
+          <p class="name">Vanilla Bean Crème Brûlée</p>
+          <p class="price">$7.00</p>
+        </div>
+
+        <div  class="prod">
+          <img class="imag" src="./product-list-with-cart-main/assets/images/image-macaron-desktop.jpg">
+          <div class="buy"><img src="./product-list-with-cart-main/assets/images/icon-add-to-cart.svg"><p>Add To Cart</p></div>
+          <p class="gray">Macaron</p>
+          <p class="name">Macaron Mix of Five</p>
+          <p class="price">$8.00</p>
+        </div>
+
+        <div  class="prod">
+          <img class="imag" src="./product-list-with-cart-main/assets/images/image-tiramisu-desktop.jpg">
+          <div class="buy"><img src="./product-list-with-cart-main/assets/images/icon-add-to-cart.svg"><p>Add To Cart</p></div>
+          <p class="gray">Tiramisu</p>
+          <p class="name">Classic Tiramisu</p>
+          <p class="price">$5.50</p>
+        </div>
+
+        <div  class="prod">
+          <img class="imag" src="./product-list-with-cart-main/assets/images/image-baklava-desktop.jpg">
+          <div class="buy"><img src="./product-list-with-cart-main/assets/images/icon-add-to-cart.svg"><p>Add To Cart</p></div>
+          <p class="gray">Baklava</p>
+          <p class="name">Pistachio Baklava</p>
+          <p class="price">$4.00</p>
+        </div>
+
+        <div  class="prod">
+          <img class="imag" src="./product-list-with-cart-main/assets/images/image-meringue-desktop.jpg">
+          <div class="buy"><img src="./product-list-with-cart-main/assets/images/icon-add-to-cart.svg"><p>Add To Cart</p></div>
+          <p class="gray">Pie</p>
+          <p class="name">Lemon Meringue Pie</p>
+          <p class="price">$5.00</p>
+        </div>
+
+        <div  class="prod">
+          <img class="imag" src="./product-list-with-cart-main/assets/images/image-cake-desktop.jpg">
+          <div class="buy"><img src="./product-list-with-cart-main/assets/images/icon-add-to-cart.svg"><p>Add To Cart</p></div>
+          <p class="gray">Cake</p>
+          <p class="name">Red Velvet Cake</p>
+          <p class="price">$4.50</p>
+        </div>
+
+        <div  class="prod">
+          <img class="imag" src="./product-list-with-cart-main/assets/images/image-brownie-desktop.jpg">
+          <div class="buy"><img src="./product-list-with-cart-main/assets/images/icon-add-to-cart.svg"><p>Add To Cart</p></div>
+          <p class="gray">Brownie</p>
+          <p class="name">Salted Caramel Brownie</p>
+          <p class="price">$5.50</p>
+        </div>
+
+        <div  class="prod">
+          <img class="imag" src="./product-list-with-cart-main/assets/images/image-panna-cotta-desktop.jpg">
+          <div class="buy"><img src="./product-list-with-cart-main/assets/images/icon-add-to-cart.svg"><p>Add To Cart</p></div>
+          <p class="gray">Panna Cotta</p>
+          <p class="name">Vanilla Panna Cotta</p>
+          <p class="price">$6.50</p>
+        </div>
+
+
+
+
+      </div>
+      <div id="cart">
+        <h2 id="ora">Your cart (0)</h2>
+        <img src="./product-list-with-cart-main/assets/images/illustration-empty-cart.svg">
+        <p>Your added items will apear here</p>
+      </div>
+    </div>
+  </body>
+</html>
